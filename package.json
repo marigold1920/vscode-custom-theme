@@ -1,0 +1,33 @@
+{
+  "name": "cutom-vscode-theme",
+  "displayName": "Custom Theme",
+  "description": "Custom theme for VS Code",
+  "version": "6.3.4",
+  "publisher": "Victor",
+  "license": "MIT",
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#1b1f23",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.43.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Custom Light",
+        "uiTheme": "vs",
+        "path": "./themes/custom-light.json"
+      },
+      {
+        "label": "Custom Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/custom-dark.json"
+      }
+    ]
+  }
+}
