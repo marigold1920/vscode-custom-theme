@@ -1,14 +1,15 @@
 {
-  "name": "Quiet Light +",
+  "name": "Custom Light",
   "colors": {
     "activityBar.background": "#ededf5",
     "activityBar.foreground": "#5a447c",
     "activityBarBadge.background": "#705697",
-    "badge.background": "#d1d1d1",
-    "badge.foreground": "#595959",
+    "badge.background": "#dedede",
+    "badge.foreground": "#575757",
     "button.background": "#705697",
     "dropdown.background": "#f5f5f5",
     "editor.background": "#ededf5d8",
+    "editor.bracketPairColorization.enabled": false,
     "editor.fontSize": 16,
     "editor.fontWeight": "500",
     "editor.letterSpacing": -0.5,
@@ -137,19 +138,19 @@
       }
     },
     {
-      "scope": ["keyword", "storage"],
-      "settings": {
-        "foreground": "#4B69C6"
-      }
-    },
-    {
-      "scope": ["storage.type", "support.type"],
+      "scope": ["keyword", "storage", "variable.language"],
       "settings": {
         "foreground": "#7A3E9D"
       }
     },
     {
-      "scope": ["constant.language", "support.constant", "variable.language"],
+      "scope": ["storage.type", "support.type"],
+      "settings": {
+        "foreground": "#4B69C6"
+      }
+    },
+    {
+      "scope": ["constant.language", "support.constant"],
       "settings": {
         "foreground": "#9C5D27"
       }
@@ -161,14 +162,13 @@
       }
     },
     {
-      "scope": ["entity.name.function", "support.function"],
+      "scope": ["entity.name.function", "entity.name.type", "support.function"],
       "settings": {
-        "foreground": "#AA3731"
+        "foreground": "#4B69C6"
       }
     },
     {
       "scope": [
-        "entity.name.type",
         "entity.name.namespace",
         "entity.name.scope-resolution",
         "entity.other.inherited-class",
@@ -197,9 +197,9 @@
       }
     },
     {
-      "scope": "string",
+      "scope": ["string", "meta.method.body.java"],
       "settings": {
-        "foreground": "#448C27"
+        "foreground": "#5e5e5e"
       }
     },
     {
@@ -223,7 +223,7 @@
     {
       "scope": "punctuation",
       "settings": {
-        "foreground": "#777777"
+        "foreground": "#5e5e5e"
       }
     },
     {
