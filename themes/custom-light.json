@@ -162,20 +162,18 @@
       }
     },
     {
-      "scope": ["entity.name.function", "entity.name.type", "support.function"],
-      "settings": {
-        "foreground": "#4B69C6"
-      }
-    },
-    {
       "scope": [
+        "entity.name.function",
+        "entity.name.type",
+        "entity.other.inherited-class",
+        "support.function",
         "entity.name.namespace",
         "entity.name.scope-resolution",
-        "entity.other.inherited-class",
-        "support.class"
+        "support.class",
+        "punctuation.definition.annotation.java"
       ],
       "settings": {
-        "foreground": "#7A3E9D"
+        "foreground": "#4B69C6"
       }
     },
     {
